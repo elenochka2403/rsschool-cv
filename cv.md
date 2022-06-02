@@ -11,3 +11,6 @@ Phone: +319919
 Location: Amsterdam, Netherlands
 
 Citizenship: Russia
+
+
+Programming for me is an opportunity to explore and learn something new.
