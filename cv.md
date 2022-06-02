@@ -12,5 +12,8 @@ Location: Amsterdam, Netherlands
 
 Citizenship: Russia
 
+English: B1 (Intermediate)
 
 Programming for me is an opportunity to explore and learn something new.
+
+
