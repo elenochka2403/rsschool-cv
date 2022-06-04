@@ -14,6 +14,8 @@ Citizenship: Russia
 
 English: B1 (Intermediate)
 
+Nik Name rs school: @Nefelen#1522
+
 Programming for me is an opportunity to explore and learn something new.
 
 
