@@ -1,38 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
-    <title>cv</title>
-</head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="assets/favicon.ico">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    
+    
+        <title>cv</title>
+    </head>
+    
 <body>
     <header class="header">
-    <div class="container">
-        <nav class="nav">
-            <ul class="nav-list">
-                <li><a href="#contects">Contacts</a></li>
-                <li><a href="#sammary">Summary</a></li>
-                <li><a href="#skilles">Skills</a></li>
-                <li><a href="#courses">Courses</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#english">English level</a></li>
-            </ul>
-        </nav>
-    </div>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link"href="#profile">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#english">English level</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main class="main">
-<div class="container"></div>
+        <div class="container main-container">
+
+            <section class="section section-profile" id="profile">
+                <img class="avatar" src="assets/img/photo.jpg" alt="avatar" width="200">
+                <div class="section-profile-title">
+                <h1 class="section-title">Elena Nefedova</h1>
+                </div>
+            </section>
+
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li>E-mail: test@gmail.com</li>
+                    <li>Phone: +313443</li>
+                    <li>Github: elenochka2403</li>
+                    <li>Nefelen#1522</li>
+                    <li>Location: Amsterdam, Netherlands</li>
+                    <li>Citizenship: Russia</li>
+                </ul>
+            </section>
+
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>Programming for me is an opportunity to explore and learn something new.</p>
+                <q>We can readily see that in the natural world, forms arise as adaptive evolutions that solve specific
+                    kinds of problems.
+                    <cite>Nikos Salingaros.</cite></q>
+            </section>
+
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>Web-development: HTML5, CSS3</li>
+                    <li>Version control: GIT, Github</li>
+                </ul>
+            </section>
+
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <p>RS School- "JavaScript/Frontend. Stage 0"</p>
+            </section>
+
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <p>CV HTML</p>
+            </section>
+
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>Donetsk National Medical University</p>
+            </section>
+
+            <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p>B1- Intermediate</p>
+            </section>
+
+        </div>
     </main>
 
     <footer class="footer">
-<div class="container"></div>
+        <div class="container footer-container">
+            <div><a href="ttps://github.com/elenochka2403" class="footer-github">elenochka2403</a>
+              <p>CV-2022</p>
+            </div>
+             <a href="https://rs.school/js/" class="footer-rs">
+                <img src="assets/logo/rs_school_js.svg" width="70"></a>
+            </a>
+        </div>
     </footer>
 </body>
-</html>  
+
+</html>
