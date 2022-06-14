@@ -16,7 +16,6 @@ English: B1 (Intermediate)
 
 Nik Name rs school: @Nefelen#1522
 
-Deploy: https://elenochka2403.github.io/rsschool-cv/cv
 
 Programming for me is an opportunity to explore and learn something new.
  
